@@ -1,0 +1,61 @@
+:root{
+    --branco: #fff;
+    --vermelho: rgb(220,20,60);
+    --fumaca: rgb(245,245,245);
+}
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--vermelho);
+    color: var(--branco);
+    padding: 20px;
+    text-align: start;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1px);
+}
+
+header h1, header p{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: var(--branco);
+    font-size: medium;
+
+}
+
+nav a :hover{
+    color: var(--fumaca);
+}
+
+nav ul{
+    list-style: none;
+}
+
+#gen{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.card{
+    margin: 200px;
+    padding: 200px;
+    border: solid 10px;
+}
