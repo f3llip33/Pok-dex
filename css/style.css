@@ -4,15 +4,9 @@
     --fumaca: rgb(245,245,245);
 }
 
-@font-face {
-    font-family: "unum";
-    src: url(../font/unown.ttf) format(TrueType);
-}
-
-
 
 body{
-    font-family: "unum", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
