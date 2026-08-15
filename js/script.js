@@ -3,6 +3,9 @@ const type = document.querySelectorAll(".type");
 
 const tipos = "Grama";
 const tipos2 = "Venenoso";
+const tipos3 = "Fogo";
+const tipo4 = "Voador";
+const tipo5 = "Água";
 
 btnStatus.forEach((botao, index) => {
 
